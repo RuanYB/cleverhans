@@ -1,13 +1,12 @@
-
 from ..model import Model
 import numpy as np
 import os
 import pickle
-from abc import ABCMeta, abstractmethod
+from abc import ABCMeta
 import tensorflow as tf
 
 
-class TFModel(Model):
+class tfModel(Model):
     """
     Generic abstract class for a TF model that mimics the scikit-learn interface
     """
